@@ -5,25 +5,26 @@ import { Calendar } from 'lucide-react';
 const events = [
   {
     title: 'Web Development / Front-end workshop ',
-    date: ' ', 
+    date: '2025-01-27', 
     description: 'Learn how to create a static website from scratch.',
   },
   
   {
     title: 'Web Development / Back-end workshop ',
-    date: '2025-01-27', 
-    description: 'Learn how to create a dynamic website from scratch.',
-  },
-  {
-    title: 'Introduction to Machine Learning Workshop',
     date: '2025-01-28', 
-    description: 'Learn the basics of machine learning with hands-on exercises.',
+    description: 'Learn how to create a dynamic website from scratch.',
   },
   {
     title: 'Personal Branding',
     date: '2025-01-30', 
     description: 'Master the art of personal branding to define your unique professional identity.',
   },
+  {
+    title: 'Introduction to Machine Learning Workshop',
+    date: '', 
+    description: 'Learn the basics of machine learning with hands-on exercises.',
+  },
+
   {
     title: 'Introduction to Artificial Intelligence workshop ',
     date: ' ', 
