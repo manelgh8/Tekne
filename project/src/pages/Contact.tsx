@@ -6,34 +6,33 @@ const socialLinks = [
   {
     icon: <Instagram className="w-6 h-6" />,
     name: 'Instagram',
-    description: 'Follow us for event ,photos and updates',
-    url: 'https://www.instagram.com/tekne__club/'
+    description: 'Follow us for event photos and updates',
+    url: 'https://www.instagram.com/tekne__club/',
   },
   {
     icon: <Facebook className="w-6 h-6" />,
     name: 'Facebook',
     description: 'Join our Facebook page',
-    url: 'https://www.facebook.com/share/tpjEPwe3gsdu2aGF/?mibextid=qi2Omg'
+    url: 'https://www.facebook.com/share/tpjEPwe3gsdu2aGF/?mibextid=qi2Omg',
   },
   {
     icon: <MessageCircle className="w-6 h-6" />,
     name: 'Telegram',
     description: 'Join our Telegram group for discussions',
-    url: 'https://t.me/+t6msRZf-gRtmYTc8'
+    url: 'https://t.me/+t6msRZf-gRtmYTc8',
   },
   {
     icon: <MessagesSquare className="w-6 h-6" />,
     name: 'Discord',
     description: 'Connect with members on Discord',
-    url: 'https://discord.gg/sjMq4nSH'
+    url: 'https://discord.gg/sjMq4nSH',
   },
-  
   {
     icon: <Mail className="w-6 h-6" />,
     name: 'Email',
     description: 'Reach out to us directly',
-    url: 'tekne.club@univ-bouira.dz'
-  }
+    url: 'https://mail.google.com/mail/?view=cm&fs=1&to=tekne.club@univ-bouira.dz&su=Inquiry&body=Hello TEKNE Club,', // Gmail URL
+  },
 ];
 
 const Contact = () => {
@@ -53,7 +52,7 @@ const Contact = () => {
             <motion.a
               key={link.name}
               href={link.url}
-              target="_blank"
+              target="_blank" // Open all links in a new tab
               rel="noopener noreferrer"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -61,9 +60,7 @@ const Contact = () => {
               className="social-link block"
             >
               <div className="flex items-center">
-                <div className="text-primary-blue">
-                  {link.icon}
-                </div>
+                <div className="text-primary-blue">{link.icon}</div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">{link.name}</h3>
                   <p className="text-gray-600">{link.description}</p>

@@ -4,44 +4,53 @@ import { Calendar } from 'lucide-react';
 
 const events = [
   {
-    title: 'Web Development / Front-end workshop ',
-    date: '2025-01-27', 
+    title: 'Web Development / Front-end workshop',
+    date: '2025-01-27',
     description: 'Learn how to create a static website from scratch.',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfS1-YCVI7dexrETGmjBOMALy33cuxWE2izgt3X3cX4JVdzbQ/viewform?usp=header', 
   },
-  
   {
-    title: 'Web Development / Back-end workshop ',
-    date: '2025-01-28', 
+    title: 'Web Development / Back-end workshop',
+    date: '2025-01-28',
     description: 'Learn how to create a dynamic website from scratch.',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSd-ez3AcliTiJZPQtrAxtYOx-RAohu_lfmMyOqDum7R9IDhGw/viewform?usp=header',  
   },
   {
-    title: 'Personal Branding',
-    date: '2025-01-30', 
+    title: 'Personal Branding Workshop' ,
+    date: '2025-01-30',
     description: 'Master the art of personal branding to define your unique professional identity.',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSesdT51aKgJhnXlctI6i0rhJA502C8wgbiD0ujg4iBiJiiFRA/viewform?usp=header',  
   },
   {
-    title: 'Introduction to Machine Learning Workshop',
-    date: '', 
+    title: 'Introduction to Machine Learning ',
+    date: '',
     description: 'Learn the basics of machine learning with hands-on exercises.',
+    link: '',  
   },
-
   {
-    title: 'Introduction to Artificial Intelligence workshop ',
-    date: ' ', 
+    title: 'Introduction to Artificial Intelligence ',
+    date: ' ',
     description: 'Learn the basics of Artificial Intelligence with hands-on exercises.',
+    link: '', 
   },
-
   {
-    title: 'Augmented Reality workshop ',
-    date: ' ', 
-    description: ' learn the basics of AR development, and hands-on projects to bring your ideas to life. ',
-  } 
+    title: 'Augmented Reality workshop',
+    date: ' ',
+    description: 'Learn the basics of AR development, and hands-on projects to bring your ideas to life.',
+    link: '', 
+  },
 ];
 
-const Events = () => { 
+const Events = () => {
   const isValidDate = (dateString: string) => {
     const date = new Date(dateString);
-    return !isNaN(date.getTime());  
+    return !isNaN(date.getTime());
+  };
+
+  const handleEventClick = (link: string) => {
+    if (link) {
+      window.open(link, '_blank'); 
+    }
   };
 
   return (
@@ -61,7 +70,8 @@ const Events = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: index * 0.1 }}
-            className="card hover:shadow-lg"
+            className="card hover:shadow-lg cursor-pointer"  
+            onClick={() => handleEventClick(event.link)} 
           >
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0">
@@ -70,13 +80,13 @@ const Events = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">{event.title}</h3>
                 <p className="text-primary-blue font-medium mt-1">
-                  {event.date.trim() && isValidDate(event.date) ? ( 
+                  {event.date.trim() && isValidDate(event.date) ? (
                     new Date(event.date).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric',
                     })
-                  ) : ( 
+                  ) : (
                     'Date to be announced'
                   )}
                 </p>
