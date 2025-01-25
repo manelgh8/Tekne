@@ -19,7 +19,7 @@ const events = [
     title: 'Personal Branding Workshop' ,
     date: '2025-01-30',
     description: 'Master the art of personal branding to define your unique professional identity.',
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSesdT51aKgJhnXlctI6i0rhJA502C8wgbiD0ujg4iBiJiiFRA/viewform?usp=header',  
+    link: ' ',  
   },
   {
     title: 'Introduction to Machine Learning ',
