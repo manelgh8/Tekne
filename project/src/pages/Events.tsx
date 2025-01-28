@@ -4,20 +4,14 @@ import { Calendar } from 'lucide-react';
 
 const events = [
   {
-    title: 'Web Development / Front-end workshop',
-    date: '2025-01-27',
-    description: 'Learn how to create a static website from scratch.',
-    link: '', 
-  },
-  {
-    title: 'Web Development / Back-end workshop',
-    date: '2025-01-28',
-    description: 'Learn how to create a dynamic website from scratch.',
-    link: '',  
-  },
+    title: 'C++ Workshop' ,
+    date: '2025-01-30',
+    description: 'Learn and Master Modern C++, take your skills to a new level',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSff4aTpp7e7ELYN8bAT_oG3sB4wHeoHk1ZWoH572zZopIydhg/viewform?usp=header',  
+  }, 
   {
     title: 'Personal Branding Workshop' ,
-    date: '2025-01-30',
+    date:  '',
     description: 'Master the art of personal branding to define your unique professional identity.',
     link: '',  
   }, 
@@ -29,10 +23,22 @@ const events = [
   },
   {
     title: 'Augmented Reality workshop',
-    date: ' ',
+    date: '' ,
     description: 'Learn the basics of AR development, and hands-on projects to bring your ideas to life.',
     link: '', 
   },
+  {
+    title: 'Web Development / Front-end workshop',
+    date: '2025-01-27',
+    description: 'Learn how to create a static website from scratch.',
+    link: '', 
+  },
+  {
+    title: 'Web Development / Back-end workshop',
+    date: '2025-01-28',
+    description: 'Learn how to create a dynamic website from scratch.',
+    link: '',  
+  } 
 ];
 
 const Events = () => {
