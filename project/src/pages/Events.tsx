@@ -3,17 +3,12 @@ import { motion } from 'framer-motion';
 import { Calendar } from 'lucide-react';
 
 const events = [
-  {
-    title: 'C++ Workshop' ,
-    date: '2025-01-30',
-    description: 'Learn and Master Modern C++, take your skills to a new level',
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSff4aTpp7e7ELYN8bAT_oG3sB4wHeoHk1ZWoH572zZopIydhg/viewform?usp=header',  
-  }, 
+
   {
     title: 'Personal Branding Workshop' ,
-    date:  '',
+    date:  '2025-02-06',
     description: 'Master the art of personal branding to define your unique professional identity.',
-    link: '',  
+    link: 'https://docs.google.com/forms/d/1SVRKcf4YGd-KG0QSUsBXqpKKw9i4OVRFDNGFpH84nsc/edit',  
   }, 
   {
     title: 'Introduction to Artificial Intelligence ',
@@ -38,7 +33,13 @@ const events = [
     date: '2025-01-28',
     description: 'Learn how to create a dynamic website from scratch.',
     link: '',  
-  } 
+  } , 
+  {
+    title: 'C++ Workshop' ,
+    date: '2025-01-30',
+    description: 'Learn and Master Modern C++, take your skills to a new level',
+    link:  '',  
+  }
 ];
 
 const Events = () => {
