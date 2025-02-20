@@ -5,14 +5,20 @@ import { Calendar } from 'lucide-react';
 const events = [
 
   {
+    title: '3D design introduction | Blender Workshop' ,
+    date:  '2025-03-01',
+    description: 'Dive into the world of 3D design with our exclu-sive Blender workshop! From basic modeling to bringing your ideas into vivid reality',
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfpNFD_LROWm1MVwN28z_d70YFmPSnVEwza53-A4qqsv5LuaQ/viewform?usp=header',  
+  }, 
+  {
     title: 'Personal Branding Workshop' ,
     date:  '2025-02-06',
     description: 'Master the art of personal branding to define your unique professional identity.',
-    link: 'https://docs.google.com/forms/d/1SVRKcf4YGd-KG0QSUsBXqpKKw9i4OVRFDNGFpH84nsc/edit',  
+    link: '',  
   }, 
   {
     title: 'Introduction to Artificial Intelligence ',
-    date: ' ',
+    date: '',
     description: 'Learn the basics of Artificial Intelligence with hands-on exercises.',
     link: '', 
   },
