@@ -60,7 +60,7 @@ const Inscriptions = () => {
             Ready to join? Fill out our membership form to get started!
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScqkWdEnyfj3XgVH4FM8j1NQHDWtLfAgEgItaw9uiFMKiEuEg/viewform?usp=sharing"
+            href="https://form.jotform.com/250522913440549"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
