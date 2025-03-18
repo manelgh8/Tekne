@@ -4,18 +4,8 @@ import { Calendar } from 'lucide-react';
 
 const events = [
 
-  {
-    title: 'Web full-stack' ,
-    date:  '2025-02-27',
-    description: 'Create a website from scratch with HTML,CSS,BOOTSTRAP,JS,PHP,MYSQL | for L3 students specifically',
-    link: '',  
-  }, 
-  {
-    title: '3D design introduction | Blender Workshop' ,
-    date:  '2025-03-01',
-    description: 'Dive into the world of 3D design with our exclu-sive Blender workshop! From basic modeling to bringing your ideas into vivid reality',
-    link: '',  
-  }, 
+ 
+  
  
 
   {
@@ -52,6 +42,18 @@ const events = [
     title: 'Personal Branding Workshop' ,
     date:  '2025-02-06',
     description: 'Master the art of personal branding to define your unique professional identity.',
+    link: '',  
+  }, 
+  {
+    title: 'Web full-stack' ,
+    date:  '2025-02-27',
+    description: 'Create a website from scratch with HTML,CSS,BOOTSTRAP,JS,PHP,MYSQL | for L3 students specifically',
+    link: '',  
+  }, 
+  {
+    title: '3D design introduction | Blender Workshop' ,
+    date:  '2025-03-01',
+    description: 'Dive into the world of 3D design with our exclu-sive Blender workshop! From basic modeling to bringing your ideas into vivid reality',
     link: '',  
   }, 
 ];
