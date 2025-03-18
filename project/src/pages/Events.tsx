@@ -8,13 +8,13 @@ const events = [
     title: 'Web full-stack' ,
     date:  '2025-02-27',
     description: 'Create a website from scratch with HTML,CSS,BOOTSTRAP,JS,PHP,MYSQL | for L3 students specifically',
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSce2v6FFvF06wlK6dc17tRQZuadA_gUwjZXw59OuvLW5gHmDA/viewform?usp=header',  
+    link: '',  
   }, 
   {
     title: '3D design introduction | Blender Workshop' ,
     date:  '2025-03-01',
     description: 'Dive into the world of 3D design with our exclu-sive Blender workshop! From basic modeling to bringing your ideas into vivid reality',
-    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfpNFD_LROWm1MVwN28z_d70YFmPSnVEwza53-A4qqsv5LuaQ/viewform?usp=header',  
+    link: '',  
   }, 
  
 

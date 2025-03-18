@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, Facebook, MessageCircle, Mail, MessagesSquare } from 'lucide-react';
+import { Instagram, Facebook, MessageCircle, Mail, MessagesSquare , Tiktok } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -9,6 +9,13 @@ const socialLinks = [
     description: 'Follow us for event photos and updates',
     url: 'https://www.instagram.com/tekne__club/',
   },
+  {
+    icon: <Tiktok className="w-6 h-6" />,
+    name: 'TikTok',
+    description: 'Follow us on TikTok for short videos and updates',
+    url: 'https://www.tiktok.com/@tekneclub11.9 ',  
+  },
+  
   {
     icon: <Facebook className="w-6 h-6" />,
     name: 'Facebook',
