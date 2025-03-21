@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, Facebook, MessageCircle, Mail, MessagesSquare , Tiktok } from 'lucide-react';
-
+import { Instagram, Facebook, MessageCircle, Mail, MessagesSquare   } from 'lucide-react';
+import { TbBrandTiktok } from "react-icons/tb";
 const socialLinks = [
   {
     icon: <Instagram className="w-6 h-6" />,
@@ -10,7 +10,7 @@ const socialLinks = [
     url: 'https://www.instagram.com/tekne__club/',
   },
   {
-    icon: <Tiktok className="w-6 h-6" />,
+    icon: <TbBrandTiktok className="w-6 h-6" />,
     name: 'TikTok',
     description: 'Follow us on TikTok for short videos and updates',
     url: 'https://www.tiktok.com/@tekneclub11.9 ',  

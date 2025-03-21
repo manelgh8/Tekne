@@ -3,11 +3,7 @@ import { motion } from 'framer-motion';
 import { Calendar } from 'lucide-react';
 
 const events = [
-
  
-  
- 
-
   {
     title: 'Introduction to Artificial Intelligence ',
     date: '',
@@ -55,7 +51,7 @@ const events = [
     date:  '2025-03-01',
     description: 'Dive into the world of 3D design with our exclu-sive Blender workshop! From basic modeling to bringing your ideas into vivid reality',
     link: '',  
-  }, 
+  } , 
 ];
 
 const Events = () => {
